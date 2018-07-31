@@ -1,0 +1,132 @@
+nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 55px;
+    display: inline-block;
+    background-color: #2b7cb3;
+    border-radius: 4px;
+    height: 25px;
+    width: 120px;
+    font-size: 17px;
+    padding-left: 8px;
+    padding-top: 10px;
+    margin-left: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a:visited,
+a:link {
+    color: white;
+}
+
+nav a:hover {
+    color: #003971;
+    background-color: #CFD8DC;
+}
+
+nav a.active {
+    color: #003971;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 12%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: auto;
+    overflow: auto;
+    margin-top: -2px;
+}
+
+li a {
+    display: block;
+    color: #003971;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+li a.active {
+    background-color: #ef476f;
+    color: white;
+    font-size: 16px;
+}
+
+li a:hover:not(.active) {
+    background-color: #2b7cb3;
+    color: white;
+}
+
+button {
+    text-decoration: none;
+    margin-right: 0px;
+    margin-top: 0px;
+    display: inline-block;
+    background-color: #2b7cb3;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    color: #003971;
+    background-color: #CFD8DC;
+}
+
+button.goback {
+    height: 32px;
+    width: 90px;
+    font-size: 21px;
+    margin-left: 5px;
+    margin-top: -36px;
+    float: right;
+}
+
+.menu-2-container {
+    height: 106px;
+    width: 1100px;
+    margin-left: 200px;
+    border: 0px solid red;
+}
+
+
+/*
+b {
+    margin-left: 995px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #cc0066;
+    border: 2px solid white;
+}
+
+b:hover {
+    color: white;
+    background-color: #0047b3;
+}
+
+p {
+    margin-left: 995px;
+}
+*/
+
+.btn {
+    font-size: 18px;
+    margin-left: 995px;
+    background-color: #ef476f;
+    border: 2px solid white;
+    border-radius: 14px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #2b7cb3;
+}
+
+.menu_body {
+    background-color: #ffe2f0;
+    height: 780px;
+    width: 1352px;
+    border: 1px solid #ffe2f0;
+}

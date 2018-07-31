@@ -1,0 +1,28 @@
+<app-menu></app-menu>
+
+<app-city-search></app-city-search>
+
+<div class="city-list-container">
+    <ul class="heroes">
+        <li class="engs1_container" *ngFor="let cities of city">
+            <a routerLink="/login/menu/city/c-detail/{{cities.id}}">
+                <span class="badge">{{cities.id}}</span> {{cities.title}}
+            </a>
+            <button class="delete" title="delete cities" (click)="delete(cities)"><div class="delete-h1" >x</div></button>
+            <b routerLink="/login/menu/city/c-details-edit/{{cities.id}}">
+           <span class="bbadge">Edit</span>
+        </b>
+
+        </li>
+    </ul>
+</div>
+
+<div class="engs2_container">
+    <label class="engs-h1">City Name:
+      <input #citiesTitle />
+    </label>
+    <!--(click) passes input value to add() and then clears the input-->
+    <button class="add" (click)="add(citiesTitle.value); citiesTitle.value=''">
+    Add
+    </button>
+</div>

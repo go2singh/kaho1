@@ -1,0 +1,29 @@
+<app-menu></app-menu>
+
+<div class="city-detail-container">
+
+    <div class="detail_container" *ngIf="cities">
+        <div class="e1_container">
+
+            <h2 class="e1">{{ cities.title }} - Details</h2>
+        </div>
+        <div class="e2_container">
+            <div class="e2">
+                <br>
+                <div><span class="m1">ID:</span>{{cities.id}}</div><br><br>
+
+                <div><span class="m2">City Name: </span>{{cities.title}}</div><br><br>
+
+                <div><span class="m2">State Name: </span>{{cities.state}}</div><br><br>
+
+
+
+
+
+                <button class="goback" (click)="goBack()">Go Back</button>
+                <!-- <button class="save" (click)="save()">Save</button>-->
+
+            </div>
+        </div>
+    </div>
+</div>
